@@ -26,6 +26,7 @@ app_license = "mit"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/opportunity_management/css/opportunity_management.css"
+app_include_css = "/assets/opportunity_management/css/opportunity.css"
 # app_include_js = "/assets/opportunity_management/js/opportunity_management.js"
 
 # include js, css files in header of web template
@@ -242,3 +243,9 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+    {
+        "dt": "Property Setter", 
+        "filters": [["module", "in", ["Opportunity Management"]]]
+    }
+]

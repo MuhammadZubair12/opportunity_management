@@ -1,0 +1,4 @@
+.page-container[data-page-route="List/Opportunity/List"] .level-right {
+    flex: 0 !important;
+    min-width: 5% !important;
+}
