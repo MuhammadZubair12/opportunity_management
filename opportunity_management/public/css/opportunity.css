@@ -2,3 +2,15 @@
     flex: 0 !important;
     min-width: 5% !important;
 }
+
+@media (min-width: 768px) {
+    body.full-width .page-container[data-page-route="List/Opportunity/List"] .container {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+
+.page-container[data-page-route="List/Opportunity/List"] .layout-side-section {
+    display: none !important;
+}
