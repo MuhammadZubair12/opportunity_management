@@ -245,7 +245,7 @@ app_include_css = "/assets/opportunity_management/css/opportunity.css"
 
 fixtures = [
     {
-        "dt": "Property Setter", 
+        "dt": "Client Script",
         "filters": [["module", "in", ["Opportunity Management"]]]
     }
 ]
